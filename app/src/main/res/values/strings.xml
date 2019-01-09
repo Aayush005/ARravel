@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+    <string name="title_activity_summer_season">SummerSeasonActivity</string>
+    <string name="title_activity_season">SeasonActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="description_flower_rose">A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over a hundred species and thousands of cultivars.</string>
+    <string name="description_flower_carnation">Dianthus caryophyllus, the carnation or clove pink, is a species of Dianthus. It is probably native to the Mediterranean region but its exact range is unknown due to extensive cultivation for the last 2,000 years.</string>
+    <string name="description_flower_tulip">Tulips form a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red yellow or white.</string>
+    <string name="description_flower_daisy">Bellis perennis is a common European species of daisy, of the Asteraceae family, often considered the archetypal species of that name.</string>
+    <string name="description_flower_sunflower">Helianthus or sunflower L. is a genus of plants comprising about 70 species in the family Asteraceae. The genus is one of many in the Asteraceae that are known as sunflowers.</string>
+    <string name="description_flower_daffodil">Narcissus is a genus of predominantly spring perennial plants in the Amaryllidaceae family. Various common names including daffodil, daffadowndilly, narcissus, and jonquil are used to describe all or some members of the genus.</string>
+    <string name="description_flower_gerbera">Gerbera L. is a genus of plants in the Asteraceae. It was named in honour of German botanist and medical doctor Traugott Gerber | who travelled extensively in Russia and was a friend of Carl Linnaeus.</string>
+    <string name="description_flower_orchid">The Orchidaceae are a diverse and widespread family of flowering plants, with blooms that are often colourful and fragrant, commonly known as the orchid family. Along with the Asteraceae, they are one of the two largest families of flowering plants.</string>
+    <string name="description_flower_iris">Irises are perennial plants, growing from creeping rhizomes (rhizomatous irises) or, in drier climates, from bulbs (bulbous irises). They have long, erect flowering stems which may be simple or branched, solid or hollow, and flattened or have a circular cross-section.</string>
+    <string name="description_flower_lilac">Syringa is a genus of 12 currently recognized species of flowering woody plants in the olive family, native to woodland and scrub from southeastern Europe to eastern Asia, and widely and commonly cultivated in temperate areas elsewhere.</string>
+    <string name="title_activity_season_detail">SeasonDetailActivity</string>
+
+    <string name="ladaakh_desc">Ladakh ("land of high passes") is a region in the Indian state of Jammu and Kashmir that currently extends from the Siachen Glacier in the Karakoram range to the main Great Himalayas to the south, inhabited by people of Indo-Aryan and Tibetan descent. It is one of the most sparsely populated regions in Jammu and Kashmir and its culture and history are closely related to that of Tibet. Ladakh is renowned for its remote mountain beauty and culture.</string>
+    <string name="goa_desc">Goa is a state on the western coast of India, within the region known as the Konkan. It is bounded by Maharashtra to the north and Karnataka to the east and south, with the Arabian Sea forming its western coast. It is India\'s smallest state by area and the fourth-smallest by population. Goa has the highest GDP per capita among all Indian states, two and a half times that of the country. It was ranked the best-placed state by the Eleventh Finance Commission for its infrastructure and ranked on top for the best quality of life in India by the National Commission on Population based on the 12 Indicators.</string>
+    <string name="iceland_desc">Iceland is a Nordic island country in the North Atlantic, with a population of 348,580 and an area of 103,000 km2 (40,000 sq mi), making it the most sparsely populated country in Europe.The capital and largest city is Reykjavík, with Reykjavík and the surrounding areas in the southwest of the country being home to over two-thirds of the population. Iceland is volcanically and geologically active. The interior consists of a plateau characterised by sand and lava fields, mountains, and glaciers, and many glacial rivers flow to the sea through the lowlands.</string>
+    <string name="koh_samui_desc">Koh Samui (Samui Island) is a cosmopolitan melting pot, attracting budget travellers staying for a month or two in simple beachside bungalows, to the wealthiest holidaymakers dropping in for a weekend at one of the many luxury resort or villa on the many white sand beaches of Koh Samui. From the hustle and bustle of Chaweng Beach to the lively yet relaxed atmosphere of Lamai Beach to the timeless feel of Bophut Fishermans Village to the tropical beach paradise of Maenam, Koh Samui is unique among Thailand\'s islands in maintaining a broad appeal for everyone. This helps to give the distinctive relaxed atmosphere that sets it apart.
+    </string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="manali">Manali is a resort town nestled in the mountains of the Indian state of Himachal Pradesh near the northern end of the Kullu Valley in the Beas River Valley. It is located in the Kullu district, about 270 km (168 mi) north of the state capital, Shimla, 309 km (192 miles) northeast of Chandigarh and 544 km (338 miles) northeast of Delhi, the federal capital. The small town, with a population of 8,096,[1] is the beginning of an ancient trade route to Ladakh and from there over the Karakoram Pass on to Yarkand and Khotan in the Tarim Basin. It is a popular tourist destination and serves as the gateway to Lahaul and Spiti district as well as Leh.</string>
+    <string name="whitecity">White City is an unincorporated community and census-designated place (CDP) in Jackson County, Oregon, United States. The population was 7,975 at the 2010 census, up from 5,466 at the 2000 census. White City is about 9 miles (14 km) north of the center of Medford and 4 miles (6 km) south of Eagle Point. According to the United States Census Bureau, the White City CDP has a total area of 1.9 square miles (4.8 km2), all of it land. This region experiences warm (but not hot) and dry summers, with no average monthly temperatures above 71.6 °F (22.0 °C). According to the Köppen Climate Classification system, White City has a warm-summer Mediterranean climate, abbreviated "Csb" on climate maps.</string>
+    <string name="harbin">Harbin is the capital of Heilongjiang province, and largest city in the northeastern region of the People\'s Republic of China. Holding sub-provincial administrative status, Harbin has direct jurisdiction over nine metropolitan districts, two county-level cities and seven counties. Harbin is the eighth most populous Chinese city according to the 2010 census, the built-up area (which consists of all districts except Shuangcheng and Acheng) had 5,282,093 inhabitants, while the total population of the sub-provincial city was up to 10,635,971. Harbin serves as a key political, economic, scientific, cultural, and communications hub in Northeast China, as well as an important industrial base of the nation.</string>
+    <string name="abisko">Abisko is a small village in Sweden, north of the Arctic Circle. Just out of town, extending from the southwestern shore of Torneträsk Lake, is Abisko National Park. Surrounded by mountains, it shelters lemmings and reindeer, plus the Lapp orchid. The King’s Trail begins in the park and leads to Hemavan, in the south. The Aurora Sky Station, on Mount Nuolja, is an observation center for the Northern Lights.</string>
+    <string name="title_activity_country_place_detail">CountryPlaceDetailActivity</string>
+
+
+    <string name="tajamahal">Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal. It also houses the tomb of Shah Jahan, the builder. The tomb is the centerpiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.</string>
+    <string name="lotustemple">The Lotus Temple, located in Delhi, India, is a Bahaí House of Worship that was dedicated in December 1986, costing $10 million. Notable for its flowerlike shape, it has become a prominent attraction in the city. Like all Bahaí Houses of Worship, the Lotus Temple is open to all, regardless of religion or any other qualification. The building is composed of 27 free-standing marble-clad "petals" arranged in clusters of three to form nine sides, with nine doors opening onto a central hall with a height of slightly over 34.27metres and a capacity of 2500 people. The Lotus Temple has won numerous architectural awards and has been featured in many newspaper and magazine articles. A 2001 CNN report referred to it as the most visited building in the world.</string>
+    <string name="sanchistupa">Sanchi Stupa, also written Sanci, is a Buddhist complex, famous for its Great Stupa, on a hilltop at Sanchi Town in Raisen District of the State of Madhya Pradesh, India. It is located in 46 kilometres (29 mi) north-east of Bhopal, capital of Madhya Pradesh. The Great Stupa at Sanchi is one of the oldest stone structures in India, and an important monument of Indian Architecture.[1] It was originally commissioned by the emperor Ashoka in the 2nd century BCE. Its nucleus was a simple hemispherical brick structure built over the relics of the Buddha. It was crowned by the chhatri, a parasol-like structure symbolising high rank, which was intended to honour and shelter the relics. The original construction work of this stupa was overseen by Ashoka, whose wife Devi was the daughter of a merchant of nearby Vidisha.</string>
+    <string name="statueofliberty">is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States. The copper statue, a gift from the people of France to the people of the United States, was designed by French sculptor Frédéric Auguste Bartholdi and its metal framework was built by Gustave Eiffel. The statue was dedicated on October 28, 1886.The Statue of Liberty is a figure of Libertas, a robed Roman liberty goddess. She holds a torch above her head with her right hand, and in her left hand carries a tabula ansata inscribed in Roman numerals with "JULY IV MDCCLXXVI" (July 4, 1776), the date of the U.S. Declaration of Independence. A broken chain lies at her feet as she walks forward. The statue became an icon of freedom and of the United States, a national park tourism destination, and is a welcoming sight to immigrants arriving from abroad.</string>
+    <string name="pisa">Leaning Tower of Pisa or simply the Tower of Pisa is the campanile, or freestanding bell tower, of the cathedral of the Italian city of Pisa, known worldwide for its unintended tilt. The tower is situated behind the Pisa Cathedral and is the third oldest structure in the city Cathedral Square (Piazza del Duomo), after the cathedral and the Pisa Baptistry.The tower tilt began during construction in the 12th century, caused by an inadequate foundation on ground too soft on one side to properly support the structure\'s weight. The tilt increased in the decades before the structure was completed in the 14th century. It gradually increased until the structure was stabilized (and the tilt partially corrected) by efforts in the late 20th and early 21st centuries.</string>
+    <string name="burjkhalifa">Burj Khalifa known as the Burj Dubai prior to its inauguration in 2010, is a skyscraper in Dubai, United Arab Emirates. With a total height of 829.8 m (2,722 ft) and a roof height (excluding antenna) of 828 m (2,717 ft), the Burj Khalifa has been the tallest structure and building in the world since its topping out in late 2008.Construction of the Burj Khalifa began in 2004, with the exterior completed five years later in 2009. The primary structure is reinforced concrete. The building was opened in 2010 as part of a new development called Downtown Dubai. It is designed to be the centrepiece of large-scale, mixed-use development. The decision to construct the building is based on the government\'s decision to diversify from an oil-based economy, and for Dubai to gain international recognition.</string>
+    <string name="burjalarab">Burj Al Arab is a luxury hotel located in Dubai, United Arab Emirates. It is the fifth tallest hotel in the world (although 39% of its total height is made up of non-occupiable space). Burj Al Arab stands on an artificial island 280 m (920 ft) from Jumeirah Beach and is connected to the mainland by a private curving bridge. The shape of the structure is designed to resemble the sail of a ship. It has a helipad near the roof at a height of 210 m (689 ft) above ground. The beachfront area where Burj Al Arab and Jumeirah Beach Hotel are located was previously called Miami Beach. The hotel is located on an island of reclaimed land 280 meters offshore of the beach of the former Chicago Beach Hotel.</string>
+    <string name="colosseum">Colosseum, also known as the Flavian Amphitheatre, is an oval amphitheatre in the centre of the city of Rome, Italy. Built of travertine, tuff, and brick-faced concrete,[1] it is the largest amphitheatre ever built. The Colosseum is situated just east of the Roman Forum. Construction began under the emperor Vespasian in AD 72, and was completed in AD 80 under his successor and heir Titus.[3] Further modifications were made during the reign of Domitian (81–96). These three emperors are known as the Flavian dynasty, and the amphitheatre was named in Latin for its association with their family name (Flavius).</string>
+    <string name="riodejaneiro">Rio de Janeiro or simply Rio, is the second-most populous municipality in Brazil and the sixth-most populous in the Americas. The metropolis is anchor to the Rio de Janeiro metropolitan area, the second-most populous metropolitan area in Brazil and sixth-most populous in the Americas. Rio de Janeiro is the capital of the state of Rio de Janeiro, Brazil\'s third-most populous state. Part of the city has been designated as a World Heritage Site, named "Rio de Janeiro: Carioca Landscapes between the Mountain and the Sea", by UNESCO on 1 July 2012 as a Cultural Landscape.</string>
+    <string name="bigben">Big Ben is the nickname for the Great Bell of the clock at the north end of the Palace of Westminster in London and is usually extended to refer to both the clock and the clock tower. The official name of the tower in which Big Ben is located was originally the Clock Tower, but it was renamed Elizabeth Tower in 2012 to mark the Diamond Jubilee of Elizabeth II.The tower was designed by Augustus Pugin in a neo-gothic style. When completed in 1859, its clock was the largest and most accurate four-faced striking and chiming clock in the world. The tower stands 315 feet (96 m) tall, and the climb from ground level to the belfry is 334 steps. </string>
+    <string name="buddha">is the tallest statue in Thailand, the second-tallest statue in Southeast Asia, and the seventh-tallest in the world. Located in the Wat Muang temple in Ang Thong Province, this statue stands 92 m (300 ft) high, and is 63 m (210 ft) wide. Construction commenced in 1990, and was completed in 2008. It is painted gold and made of concrete. The statue was built following the order of Phra Kru Vibul Arjarakhun, the first abbot of Wat Muang temple, in order to commamorate the King Bhumibol of Thailand. </string>
+    <string name="cathedral">Saint Basil\'s Cathedral, commonly known as Saint Basil\'s Cathedral, is a church in Red Square in Moscow, Russia and is one of the most popular symbols of the country. The building, now a museum, is officially known as the Cathedral of the Intercession of the Most Holy Theotokos on the Moat (Собо́р Покрова́ Пресвято́й Богоро́дицы, что на Рву, Sobor Pokrova Presvyatoy Bogoroditsy, chto na Rvu) or Pokrovsky Cathedral (Покро́вский собо́р). It was built from 1555–1561 on orders from Ivan the Terrible and commemorates the capture of Kazan and Astrakhan. It was the city tallest building until the completion of the Ivan the Great Bell Tower in 1600. The Saint Basils Cathedral is not to be confused with the Moscow Kremlin.</string>
+    <string name="eiffeltower">is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower.Constructed from 1887–1889 as the entrance to the 1889 World\'s Fair, it was initially criticised by some of France\'s leading artists and intellectuals for its design, but it has become a global cultural icon of France and one of the most recognisable structures in the world. The Eiffel Tower is the most-visited paid monument in the world; 6.91 million people ascended it in 2015.The tower is 324 metres (1,063 ft) tall, about the same height as an 81-storey building, and the tallest structure in Paris. Its base is square, measuring 125 metres (410 ft) on each side. </string>
+
+
+</resources>

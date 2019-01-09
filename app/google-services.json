@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "916052159927",
+    "firebase_url": "https://smart-tech-quiz.firebaseio.com",
+    "project_id": "smart-tech-quiz",
+    "storage_bucket": "smart-tech-quiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916052159927:android:e17b0534fb195f95",
+        "android_client_info": {
+          "package_name": "com.example.helloworld.landmark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916052159927-7pdolh2dje58h6mlhq18rjll0e2nqmof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyButi5m7FPb5Z1GAGtbULY-u0fFb6et8vc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916052159927:android:2b1fc42ae9b91001",
+        "android_client_info": {
+          "package_name": "com.mohak.android.travelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916052159927-7pdolh2dje58h6mlhq18rjll0e2nqmof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyButi5m7FPb5Z1GAGtbULY-u0fFb6et8vc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
